@@ -1,0 +1,173 @@
+html,body{
+    height: 100%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image img{
+    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #3882f6;
+}
+
+.image{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+}
+
+.image-section{
+    text-align: center;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section > p{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.image-container{
+    gap: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: #3882f6;
+    height: 30px;
+}
+
+.header{
+    padding: 0 160px;
+    padding-top: 10px;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 350px;
+    flex-shrink: 1;
+}
+
+.hero-image{
+    background-color: rgb(64, 64, 83);
+    width: 400px;
+    height: 180px;
+}
+
+.hero-section{
+    flex-wrap: wrap;
+    padding: 100px;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text{
+    width: 370px;
+}
+
+.hero-text-big{
+    width: 250px;
+    font-size: 36px;
+    margin: 0;
+}
+
+ul{
+    gap: 30px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.quote{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.thor-quote{
+    display: flex;
+    width: 750px;
+    flex: 0;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+    font-size: 36px;
+}
+
+.thor-sign{
+    margin: 0;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.footer{
+    margin-top: auto;
+    color: white;
+    padding: 30px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.action-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 90px;
+}
+
+.action-div{
+    border-radius: 5px;
+    color: white;
+    padding: 40px 70px;
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.action-div > button{
+    border: 1px white solid;
+}
